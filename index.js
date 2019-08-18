@@ -1,3 +1,5 @@
+//Mathematica 12.0.0.
+
 const magicNumbers = [10690, 12251, 17649, 24816, 33360, 35944, 36412, 42041, 42635, 44011, 53799, 56181, 58536, 59222, 61041]
 
 const testSalt = (a, b, c) => {
@@ -82,4 +84,4 @@ const keygen = (mathID, activationKey = '1234-4321-123456') => {
   return result
 }
 
-module.exports = keygen
+alert(keygen('0000-00000-00000', '1234-1234-123456'));
